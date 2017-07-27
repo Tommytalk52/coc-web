@@ -1,0 +1,141 @@
+body{
+    /*background-image: url('doc/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;*/
+    background-color:#FCCA46;
+}
+html, body {
+    margin:0;
+    padding:0;
+}
+
+#tablemax {
+    display: none;
+}
+
+#menubar {
+    background-color: #AC3931;
+    color: #ffffff;
+    width: 100%;
+    text-align: right;
+    text-decoration: none;
+    height: 80px;
+}
+
+.left {
+    float: left;
+}
+
+#table {
+    margin-top: 50px;
+    width: 100%;
+}
+
+#thselect {
+    margin-top: 20px;
+}
+
+td, th {
+    padding: 10px 10px 10px 10px;
+
+}
+
+tr {
+    border: 1px solid black;
+}
+
+#menubar a{
+    float: right;
+    width: 130px;
+    height: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 30px 5px 30px 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+a:hover{
+    background:#233D4D;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 30px 5px 30px 0px;
+    display: inline-block;
+}
+
+#t2 tr {
+    border: 1px solid black;
+
+}
+
+a:active{
+    transform: translateZ(4px);
+}
+
+#selects {
+    float: left;
+    clear: left;
+}
+
+#result{
+    padding: 10px 10px 10px 10px;
+    background: #16BAC5;
+    margin-top: 10px;
+    float: left;
+    clear: left;
+}
+
+select, button{
+    padding-bottom: 40px;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #619B8A;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: #507F71;
+}
+
+.button:active {
+  background-color: #507F71;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.buttonsmall {
+  padding: 3px 5px;
+  font-size: 1em;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #619B8A;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 6px #999;
+}
+
+.buttonsmall:hover {
+    background-color: #507F71;
+}
+
+.buttonsmall:active {
+  background-color: #507F71;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+.hide{
+    display:none;
+}
